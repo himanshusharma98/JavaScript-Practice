@@ -57,3 +57,17 @@ let finalResult = scores1
     .map((score) => score * 3)
     .reduce((sum, val) => sum + val, 0);
 console.log(finalResult);
+
+//Sorting an Stirng Array
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
+console.log(fruits);
+//Reversing an String Array
+console.log(fruits.reverse());
+
+//Sorting an Number Array
+let numberSort = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 105];
+numberSort.sort((a, b) => a - b);
+console.log(numberSort);
+//Reversing an Number Array
+console.log(numberSort.reverse());  
